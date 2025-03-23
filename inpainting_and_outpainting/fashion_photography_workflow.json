@@ -1,6 +1,6 @@
 {
-    "last_node_id": 62,
-    "last_link_id": 89,
+    "last_node_id": 63,
+    "last_link_id": 90,
     "nodes": [
         {
             "id": 10,
@@ -82,7 +82,7 @@
                 246
             ],
             "flags": {},
-            "order": 22,
+            "order": 23,
             "mode": 0,
             "inputs": [
                 {
@@ -111,7 +111,7 @@
                 186
             ],
             "flags": {},
-            "order": 23,
+            "order": 22,
             "mode": 0,
             "inputs": [
                 {
@@ -379,7 +379,7 @@
                 46
             ],
             "flags": {},
-            "order": 13,
+            "order": 15,
             "mode": 0,
             "inputs": [
                 {
@@ -422,7 +422,7 @@
                 58
             ],
             "flags": {},
-            "order": 4,
+            "order": 3,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -596,7 +596,7 @@
                 164.31304931640625
             ],
             "flags": {},
-            "order": 17,
+            "order": 13,
             "mode": 0,
             "inputs": [
                 {
@@ -644,7 +644,7 @@
                 196.48919677734375
             ],
             "flags": {},
-            "order": 12,
+            "order": 11,
             "mode": 0,
             "inputs": [
                 {
@@ -690,7 +690,7 @@
                 218
             ],
             "flags": {},
-            "order": 11,
+            "order": 12,
             "mode": 0,
             "inputs": [
                 {
@@ -750,7 +750,7 @@
                 98
             ],
             "flags": {},
-            "order": 3,
+            "order": 4,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -849,7 +849,7 @@
             "flags": {
                 "collapsed": false
             },
-            "order": 18,
+            "order": 14,
             "mode": 0,
             "inputs": [
                 {
@@ -1184,7 +1184,7 @@
                 58
             ],
             "flags": {},
-            "order": 14,
+            "order": 16,
             "mode": 0,
             "inputs": [
                 {
@@ -1599,7 +1599,7 @@
                 122
             ],
             "flags": {},
-            "order": 15,
+            "order": 17,
             "mode": 0,
             "inputs": [
                 {
@@ -2008,7 +2008,8 @@
                     "name": "image",
                     "type": "IMAGE",
                     "links": [
-                        79
+                        79,
+                        90
                     ],
                     "slot_index": 0
                 }
@@ -2131,7 +2132,7 @@
                 222
             ],
             "flags": {},
-            "order": 16,
+            "order": 18,
             "mode": 0,
             "inputs": [
                 {
@@ -2184,7 +2185,7 @@
                 200
             ],
             "flags": {},
-            "order": 7,
+            "order": 6,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -2219,7 +2220,7 @@
                 318
             ],
             "flags": {},
-            "order": 6,
+            "order": 7,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -2241,6 +2242,47 @@
                 "40-pcsfsslp046206-peter-england-original-imagtbksanrz9gxh (1).webp",
                 "image",
                 "Upload Model Image"
+            ]
+        },
+        {
+            "id": 63,
+            "type": "FSSaveImage",
+            "pos": [
+                5419.09228515625,
+                1902.827392578125
+            ],
+            "size": [
+                315,
+                154
+            ],
+            "flags": {},
+            "order": 52,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": 90
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "filepath",
+                    "type": "STRING",
+                    "links": null
+                }
+            ],
+            "properties": {
+                "aux_id": "FlowScale-AI/flowscale-nodes",
+                "ver": "ae4978f9f330c1436efba9bf2411dc0ce7c20bd5",
+                "Node name for S&R": "FSSaveImage"
+            },
+            "widgets_values": [
+                "FlowScale",
+                "png",
+                "Download New Image",
+                95,
+                false
             ]
         }
     ],
@@ -2852,6 +2894,14 @@
             27,
             0,
             "IMAGE"
+        ],
+        [
+            90,
+            57,
+            0,
+            63,
+            0,
+            "IMAGE"
         ]
     ],
     "groups": [
@@ -2989,10 +3039,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.6209213230591554,
+            "scale": 1.2100000000000002,
             "offset": [
-                -988.768439053679,
-                -806.1100869563122
+                -5242.998522211184,
+                -1606.943956022724
             ]
         }
     },
