@@ -82,7 +82,7 @@
                 246
             ],
             "flags": {},
-            "order": 23,
+            "order": 22,
             "mode": 0,
             "inputs": [
                 {
@@ -111,7 +111,7 @@
                 186
             ],
             "flags": {},
-            "order": 22,
+            "order": 23,
             "mode": 0,
             "inputs": [
                 {
@@ -275,7 +275,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                336009918199243,
+                1122612438259879,
                 "randomize",
                 20,
                 8,
@@ -379,7 +379,7 @@
                 46
             ],
             "flags": {},
-            "order": 15,
+            "order": 13,
             "mode": 0,
             "inputs": [
                 {
@@ -596,7 +596,7 @@
                 164.31304931640625
             ],
             "flags": {},
-            "order": 13,
+            "order": 17,
             "mode": 0,
             "inputs": [
                 {
@@ -644,7 +644,7 @@
                 196.48919677734375
             ],
             "flags": {},
-            "order": 11,
+            "order": 12,
             "mode": 0,
             "inputs": [
                 {
@@ -690,7 +690,7 @@
                 218
             ],
             "flags": {},
-            "order": 12,
+            "order": 11,
             "mode": 0,
             "inputs": [
                 {
@@ -849,7 +849,7 @@
             "flags": {
                 "collapsed": false
             },
-            "order": 14,
+            "order": 18,
             "mode": 0,
             "inputs": [
                 {
@@ -1184,7 +1184,7 @@
                 58
             ],
             "flags": {},
-            "order": 16,
+            "order": 14,
             "mode": 0,
             "inputs": [
                 {
@@ -1323,7 +1323,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                145770813750588,
+                954560095848428,
                 "randomize",
                 40,
                 2,
@@ -1599,7 +1599,7 @@
                 122
             ],
             "flags": {},
-            "order": 17,
+            "order": 15,
             "mode": 0,
             "inputs": [
                 {
@@ -1956,7 +1956,7 @@
             ],
             "size": [
                 315,
-                58
+                270
             ],
             "flags": {},
             "order": 51,
@@ -2084,16 +2084,16 @@
             "id": 59,
             "type": "LoadImage",
             "pos": [
-                1094.320068359375,
-                1856.5333251953125
+                1106.151123046875,
+                1925.85595703125
             ],
             "size": [
                 315,
                 314
             ],
             "flags": {},
-            "order": 7,
-            "mode": 0,
+            "order": 5,
+            "mode": 4,
             "inputs": [],
             "outputs": [
                 {
@@ -2131,7 +2131,7 @@
                 222
             ],
             "flags": {},
-            "order": 18,
+            "order": 16,
             "mode": 0,
             "inputs": [
                 {
@@ -2184,7 +2184,7 @@
                 200
             ],
             "flags": {},
-            "order": 5,
+            "order": 7,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -2203,16 +2203,16 @@
                 "Node name for S&R": "FSLoadText"
             },
             "widgets_values": [
-                "",
-                "Input Image"
+                "A 60 year old sardar wearing a olive shirt and black pant",
+                "Text Prompt"
             ]
         },
         {
             "id": 62,
             "type": "FSLoadImage",
             "pos": [
-                594.1873779296875,
-                1793.643798828125
+                638.5540161132812,
+                1828.9521484375
             ],
             "size": [
                 315,
@@ -2238,9 +2238,9 @@
                 "Node name for S&R": "FSLoadImage"
             },
             "widgets_values": [
-                "example.png",
+                "40-pcsfsslp046206-peter-england-original-imagtbksanrz9gxh (1).webp",
                 "image",
-                "Input Image"
+                "Upload Model Image"
             ]
         }
     ],
@@ -2989,10 +2989,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.7513148009015781,
+            "scale": 0.6209213230591554,
             "offset": [
-                -681.4418221036477,
-                -1235.5710768598458
+                -988.768439053679,
+                -806.1100869563122
             ]
         }
     },
