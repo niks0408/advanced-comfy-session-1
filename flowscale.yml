@@ -119,18 +119,18 @@ workflows:
   - id: akj01afuxdt
     name: fashion_photography_workflow_api.json
     file: inpainting_and_outpainting/fashion_photography_workflow_api.json
-    version: 2
+    version: 3
     description: ''
     inputs:
       - path: 61.inputs.default_value
-        label: Input Image
+        label: Text Prompt
         parameter_name: default_value_67889
         type: string
         demo_type: text
         category: input
         randomize: false
       - path: 62.inputs.image
-        label: Input Image
+        label: Upload Model Image
         parameter_name: image_84940
         type: string
         demo_type: image
@@ -235,4 +235,4 @@ normal_workflows:
   - id: 7yib30hpqgo
     name: fashion_photography_workflow.json
     file: inpainting_and_outpainting/fashion_photography_workflow.json
-    version: 2
+    version: 3
