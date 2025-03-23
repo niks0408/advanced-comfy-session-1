@@ -223,7 +223,10 @@
     },
     "26": {
         "inputs": {
-            "text": "british young man, wearing black shirt and grey pants, london street background"
+            "text": [
+                "61",
+                0
+            ]
         },
         "class_type": "Text Multiline",
         "_meta": {
@@ -239,7 +242,7 @@
             "condition": "always",
             "multiple_of": 8,
             "image": [
-                "59",
+                "62",
                 0
             ]
         },
@@ -768,6 +771,27 @@
         "class_type": "DWPreprocessor",
         "_meta": {
             "title": "DWPose Estimator"
+        }
+    },
+    "61": {
+        "inputs": {
+            "default_value": "",
+            "label": "Input Image"
+        },
+        "class_type": "FSLoadText",
+        "_meta": {
+            "title": "[FS]⚡Load Text (Input)"
+        }
+    },
+    "62": {
+        "inputs": {
+            "image": "example.png",
+            "upload": "image",
+            "label": "Input Image"
+        },
+        "class_type": "FSLoadImage",
+        "_meta": {
+            "title": "[FS]⚡Load Image (Input)"
         }
     }
 }
