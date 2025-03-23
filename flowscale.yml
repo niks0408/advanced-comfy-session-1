@@ -119,7 +119,7 @@ workflows:
   - id: akj01afuxdt
     name: fashion_photography_workflow_api.json
     file: inpainting_and_outpainting/fashion_photography_workflow_api.json
-    version: 3
+    version: 4
     description: ''
     inputs:
       - path: 61.inputs.default_value
@@ -136,7 +136,16 @@ workflows:
         demo_type: image
         category: input
         randomize: false
-    outputs: []
+      - path: 63.inputs.filename_prefix
+        label: filename_prefix
+        parameter_name: filename_prefix_98107
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+    outputs:
+      - label: Download New Image
+        demo_type: image
     skip_preprocess: true
     advancedConfig: false
   - id: 9arr3rg5w1f
@@ -235,4 +244,4 @@ normal_workflows:
   - id: 7yib30hpqgo
     name: fashion_photography_workflow.json
     file: inpainting_and_outpainting/fashion_photography_workflow.json
-    version: 3
+    version: 4
