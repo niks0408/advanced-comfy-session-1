@@ -71,7 +71,7 @@
     },
     "15": {
         "inputs": {
-            "seed": 336009918199243,
+            "seed": 1122612438259879,
             "steps": 20,
             "cfg": 8,
             "sampler_name": "euler",
@@ -427,7 +427,7 @@
     },
     "40": {
         "inputs": {
-            "seed": 145770813750588,
+            "seed": 954560095848428,
             "steps": 40,
             "cfg": 2,
             "sampler_name": "dpmpp_2m_sde",
@@ -744,16 +744,6 @@
             "title": "ImageCompositeMasked"
         }
     },
-    "59": {
-        "inputs": {
-            "image": "WhatsApp Image 2024-03-09 at 16.35.31.jpeg",
-            "upload": "image"
-        },
-        "class_type": "LoadImage",
-        "_meta": {
-            "title": "Load Image"
-        }
-    },
     "60": {
         "inputs": {
             "detect_hand": "enable",
@@ -775,8 +765,8 @@
     },
     "61": {
         "inputs": {
-            "default_value": "",
-            "label": "Input Image"
+            "default_value": "A 60 year old sardar wearing a olive shirt and black pant",
+            "label": "Text Prompt"
         },
         "class_type": "FSLoadText",
         "_meta": {
@@ -785,9 +775,9 @@
     },
     "62": {
         "inputs": {
-            "image": "example.png",
+            "image": "40-pcsfsslp046206-peter-england-original-imagtbksanrz9gxh (1).webp",
             "upload": "image",
-            "label": "Input Image"
+            "label": "Upload Model Image"
         },
         "class_type": "FSLoadImage",
         "_meta": {
