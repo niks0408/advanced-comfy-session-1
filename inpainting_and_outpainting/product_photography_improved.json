@@ -128,7 +128,7 @@
                 "aux_id": "storyicon/comfyui_segment_anything"
             },
             "widgets_values": [
-                "object",
+                "tshirt pyjama",
                 0.3
             ]
         },
@@ -2196,7 +2196,7 @@
                 "Node name for S&R": "FSLoadImage"
             },
             "widgets_values": [
-                "example.png",
+                "4138.jpg",
                 "image",
                 "Input Product Image"
             ]
@@ -2232,7 +2232,7 @@
                 "Node name for S&R": "FSLoadText"
             },
             "widgets_values": [
-                "",
+                "a tshirt pyjama ",
                 "Background Prompt"
             ]
         }
@@ -2990,10 +2990,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 1.1,
+            "scale": 0.6209213230591571,
             "offset": [
-                348.52781037275685,
-                -1105.2488359269257
+                -156.76287480829797,
+                -988.2073943728984
             ]
         }
     },
