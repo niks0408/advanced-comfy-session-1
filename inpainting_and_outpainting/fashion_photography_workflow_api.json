@@ -783,5 +783,22 @@
         "_meta": {
             "title": "[FS]⚡Load Image (Input)"
         }
+    },
+    "63": {
+        "inputs": {
+            "filename_prefix": "FlowScale",
+            "format": "png",
+            "label": "Download New Image",
+            "quality": 95,
+            "lossless": false,
+            "images": [
+                "57",
+                0
+            ]
+        },
+        "class_type": "FSSaveImage",
+        "_meta": {
+            "title": "[FS]⚡Save Image (Output)"
+        }
     }
 }
